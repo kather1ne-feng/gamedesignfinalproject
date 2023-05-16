@@ -15,18 +15,17 @@ class Generic(pygame.sprite.Sprite):
         self.hitbox = self.rect.copy().inflate((-self.rect.width*0.2, -self.rect.height*0.75))
           
 class Wildflower(Generic):
-    def __init__(self, pos, surf, groups):
+    def __init__(self, pos, surf, groups, name):
         super().__init__(pos, surf, groups)
         self.z = LAYERS['ground plant']
         self.image = pygame.transform.scale(self.image, (int(self.size[0]), int(self.size[1])))
-        
-        # self.hitbox = self.rect.copy().inflate(-20,-self.rect.height * 0.9)
-        # self.image = 
-        
+        self.name = name
+                
 class Tree(Generic):    
     def __init__(self, pos, surf, group, name, playeraddfunc):
         super().__init__(pos, surf, group)
         
+        self.name = name
         self.health = 5
         self.alive = True
         self.stump_surf = pygame.image.load(f'graphics/objects/stump_{"small" if name == "Small" else "medium"}.png').convert_alpha()

@@ -21,13 +21,16 @@ class Level:
         self.tree_sprites = pygame.sprite.Group()
         self.soil_layer = SoilLayer(self.all_sprites)
         self.interaction_sprites = pygame.sprite.Group()
+        self.smallveg_sprites = pygame.sprite.Group()
         
         self.toggles = [self.toggle_menu, self.toggle_info, self.toggle_credits]
-
+        
+        self.plant_active = False
           
         self.setup()
         self.overlay = Overlay(self.player)
         self.transition = Transition(self.reset, self.player)
+        
         self.menu = Menu(self.player, self.toggle_shop)
         self.shop_active = False
         
@@ -37,7 +40,7 @@ class Level:
         self.success = pygame.mixer.Sound('audio/success.wav')
         self.success.set_volume(0.2)
         
-        self.music = pygame.mixer.Sound('audio/music.m4a')
+        self.music = pygame.mixer.Sound('audio/music.mp3')
         self.music.set_volume(0.5)
         self.music.play(loops=-1)
         
@@ -68,7 +71,7 @@ class Level:
             Tree((obj.x * 4, obj.y * 4), obj.image.convert_alpha(), [self.all_sprites, self.tree_sprites], obj.name, playeraddfunc = self.player_add)
    
         for obj in tmx.get_layer_by_name('smallveg'):
-            Wildflower((obj.x * 4, obj.y * 4), obj.image.convert_alpha(), [self.all_sprites])
+            Wildflower((obj.x * 4, obj.y * 4), obj.image.convert_alpha(), [self.all_sprites, self.smallveg_sprites], obj.name)
     
         for x, y, tilesurface in tmx.get_layer_by_name('collisions').tiles():
             Generic((x * TILE_SIZE, y * TILE_SIZE), pygame.Surface((TILE_SIZE, TILE_SIZE)), self.collision_sprites)
@@ -83,8 +86,10 @@ class Level:
                              self.tree_sprites,
                              self.soil_layer,
                              self.interaction_sprites,
+                             self.smallveg_sprites,
                              self.toggle_shop,
-                             self.toggles)
+                             self.toggles,
+                             self.plant_toggle)
     
         Generic(pos= (0,0),
             surface = pygame.image.load('graphics/field.png').convert_alpha(),
@@ -94,6 +99,9 @@ class Level:
     def player_add(self, item):
         self.player.item_inventory[item] += 1
         self.success.play()
+        
+    def plant_toggle(self):
+        self.plant_active = not self.plant_active
   
     def toggle_shop(self):
         self.shop_active = not self.shop_active

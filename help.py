@@ -18,7 +18,7 @@ class HelpMenu():
                         'E: Change Seed, rotates through corn or tomato seeds',
                         'S: Use Seed, plants a seed',
                         'Arrow Keys: Move around',
-                        'Return/Enter: Sleep when in bed or buy/sell item in inventory',
+                        'Return/Enter: Sleep in bed, buy/sell items, look at plant info',
                         'I: Open inventory',
                         'Escape: Exits current menu',
                         'P: Learn more about the game',

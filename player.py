@@ -2,9 +2,10 @@ import pygame
 from util import *
 from support import *
 from timer import Timer
+from plantinfo import *
 
 class Player(pygame.sprite.Sprite):
-    def __init__(self, pos, group, collisiongroup, treegroup, soillayer, interactionlayer, toggle_shop, menutoggles):
+    def __init__(self, pos, group, collisiongroup, treegroup, soillayer, interactionlayer, smallveg, toggle_shop, menutoggles, plant_toggle):
         super().__init__(group)
         
         self.import_assets()
@@ -38,6 +39,7 @@ class Player(pygame.sprite.Sprite):
         self.selected_seed = self.seeds[self.seed_index]
         
         self.tree_sprites = treegroup
+        self.smallveg_sprites = smallveg
         self.target_pos = self.rect.center + PLAYER_TOOL_OFFSET[self.status.split('_')[0]]
         
         self.item_inventory = {
@@ -60,6 +62,9 @@ class Player(pygame.sprite.Sprite):
         
         self.toggle_shop = toggle_shop
         self.toggles = menutoggles
+    
+        self.plant_toggle = plant_toggle
+        self.plantinfo = PlantInfo('beautyberry', self.plant_toggle)
         
         self.watering = pygame.mixer.Sound('audio/water.mp3')
         self.watering.set_volume(0.2)
@@ -156,6 +161,20 @@ class Player(pygame.sprite.Sprite):
                     if collided_interaction_sprite[0].name == 'bed':
                         self.status='left_idle'
                         self.sleep = True
+                        
+                for tree in self.tree_sprites.sprites():
+                    if tree.rect.collidepoint(self.target_pos):
+                        if tree.name == 'Small':
+                            name = 'beautyberry'
+                        else:
+                            name = 'buckthorn'
+                        self.plantinfo = PlantInfo(name, self.plant_toggle)
+                        self.plantinfo.show_menu()
+                for plant in self.smallveg_sprites.sprites():
+                    if plant.rect.collidepoint(self.target_pos):
+                        name = plant.name
+                        self.plantinfo = PlantInfo(name, self.plant_toggle)
+                        self.plantinfo.show_menu()
                         
             if keys[pygame.K_h]:
                 self.toggles[MENUS['help']]()

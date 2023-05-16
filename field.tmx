@@ -200,30 +200,30 @@
   <object id="23" name="Small" gid="362" x="417.43" y="96.1223" width="14.8287" height="30.7166"/>
  </objectgroup>
  <objectgroup id="15" name="smallveg">
-  <object id="25" gid="356" x="400.339" y="111.62" width="17.1594" height="16.0869"/>
-  <object id="26" gid="356" x="463.574" y="109.995" width="17.1594" height="16.0869"/>
-  <object id="27" gid="356" x="463.574" y="64.0911" width="17.1594" height="16.0869"/>
-  <object id="28" gid="356" x="419.543" y="53.3177" width="17.1594" height="16.0869"/>
-  <object id="29" gid="356" x="401.276" y="30.3658" width="17.1594" height="16.0869"/>
-  <object id="30" gid="356" x="442.863" y="183.078" width="17.1594" height="16.0869"/>
-  <object id="31" gid="356" x="463.576" y="223.562" width="17.1594" height="16.0869"/>
+  <object id="25" name="liriope" gid="356" x="400.339" y="111.62" width="17.1594" height="16.0869"/>
+  <object id="26" name="liriope" gid="356" x="463.574" y="109.995" width="17.1594" height="16.0869"/>
+  <object id="27" name="liriope" gid="356" x="463.574" y="64.0911" width="17.1594" height="16.0869"/>
+  <object id="28" name="liriope" gid="356" x="419.543" y="53.3177" width="17.1594" height="16.0869"/>
+  <object id="29" name="liriope" gid="356" x="401.276" y="30.3658" width="17.1594" height="16.0869"/>
+  <object id="30" name="liriope" gid="356" x="442.863" y="183.078" width="17.1594" height="16.0869"/>
+  <object id="31" name="liriope" gid="356" x="463.576" y="223.562" width="17.1594" height="16.0869"/>
   <object id="32" gid="356" x="432.507" y="286.642" width="17.1594" height="16.0869"/>
-  <object id="33" gid="356" x="463.576" y="319.594" width="17.1594" height="16.0869"/>
-  <object id="34" gid="356" x="393.906" y="291.349" width="17.1594" height="16.0869"/>
-  <object id="35" gid="356" x="275.749" y="313.003" width="17.1594" height="16.0869"/>
-  <object id="36" gid="356" x="309.643" y="23.0256" width="17.1594" height="16.0869"/>
-  <object id="37" gid="356" x="260.685" y="49.3872" width="17.1594" height="16.0869"/>
+  <object id="33" name="liriope" gid="356" x="463.576" y="319.594" width="17.1594" height="16.0869"/>
+  <object id="34" name="liriope" gid="356" x="393.906" y="291.349" width="17.1594" height="16.0869"/>
+  <object id="35" name="liriope" gid="356" x="275.749" y="313.003" width="17.1594" height="16.0869"/>
+  <object id="36" name="liriope" gid="356" x="309.643" y="23.0256" width="17.1594" height="16.0869"/>
+  <object id="37" name="liriope" gid="356" x="260.685" y="49.3872" width="17.1594" height="16.0869"/>
   <object id="38" gid="358" x="457.334" y="43.0664" width="14.5799" height="14.5799"/>
   <object id="39" gid="358" x="418.733" y="132.521" width="14.5799" height="14.5799"/>
   <object id="40" gid="358" x="436.621" y="161.236" width="14.5799" height="14.5799"/>
   <object id="41" gid="358" x="405.552" y="264.8" width="14.5799" height="14.5799"/>
   <object id="42" gid="358" x="382.015" y="223.374" width="14.5799" height="14.5799"/>
-  <object id="43" gid="364" x="357.536" y="302.092" width="13.4672" height="14.8139"/>
-  <object id="44" gid="364" x="437.648" y="243.499" width="13.4672" height="14.8139"/>
-  <object id="45" gid="364" x="393.869" y="70.2657" width="13.4672" height="14.8139"/>
-  <object id="46" gid="364" x="455.536" y="93.3321" width="13.4672" height="14.8139"/>
-  <object id="47" gid="365" x="425.914" y="147.923" width="15.7528" height="15.7528"/>
-  <object id="48" gid="365" x="415.322" y="279.277" width="15.7528" height="15.7528"/>
+  <object id="43" name="fieldmushroom" gid="364" x="357.536" y="302.092" width="13.4672" height="14.8139"/>
+  <object id="44" name="fieldmushroom" gid="364" x="437.648" y="243.499" width="13.4672" height="14.8139"/>
+  <object id="45" name="fieldmushroom" gid="364" x="393.869" y="70.2657" width="13.4672" height="14.8139"/>
+  <object id="46" name="fieldmushroom" gid="364" x="455.536" y="93.3321" width="13.4672" height="14.8139"/>
+  <object id="47" name="fieldmushroom" gid="365" x="425.914" y="147.923" width="15.7528" height="15.7528"/>
+  <object id="48" name="fieldmushroom" gid="365" x="415.322" y="279.277" width="15.7528" height="15.7528"/>
   <object id="49" gid="365" x="415.322" y="9.5411" width="15.7528" height="15.7528"/>
  </objectgroup>
  <layer id="16" name="farmarea" width="30" height="20" opacity="0.6">

@@ -56,3 +56,22 @@ MENUS = {
     'info': 1,
     'credits': 2
 }
+
+PLANT_INFO = {
+	'beautyberry': ['Beauty Berry:',
+                        'This shrub is native to the American South',
+                        'The berries are very important foods for birds',
+                        'Its berries are also very pretty to look at!'],
+	'buckthorn': ['Buckthorn:',
+               'Nonnative tree in the American South',
+               'Highly aggressive growing plant',
+               'can outcompete native species',
+               'Can regenerate from its roots and stump sprouts'],
+	'liriope': ['Liriope:',
+             'An ornamental perennial evergreen grass',
+             'It is invasive to North America',
+             'It uses underground roots to spread rapidly'],
+	'fieldmushroom': ['Field Mushroom',
+                   'This mushroom is found around the world',
+                   'It is not dangerous and helps decompose materials']
+}
