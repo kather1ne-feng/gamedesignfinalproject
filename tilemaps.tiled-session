@@ -1,0 +1,201 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "field.tmx",
+    "expandedProjectPaths": [
+        "tilesets",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Fences.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Grass.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Hills.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/House Decoration.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/House.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Objects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.6016
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Paths.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Plant Decoration.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/Water.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/interaction.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.0933,
+            "scaleInEditor": 1
+        },
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/map.tmx": {
+            "scale": 0.20521484375,
+            "selectedLayer": 13,
+            "viewCenter": {
+                "x": 1028.1907299895306,
+                "y": 1288.8931188731324
+            }
+        },
+        "/Users/katherine/Downloads/Sprout Lands - Sprites - Basic pack/Tilesets/field.tmx": {
+            "scale": 1.8888,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 92.65141889030073,
+                "y": 193.77382465057178
+            }
+        },
+        "/Users/katherine/Downloads/Sprout Lands - Sprites - Basic pack/Tilesets/website text.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "field.tmx": {
+            "expandedObjectLayers": [
+                15
+            ],
+            "scale": 4.1179,
+            "selectedLayer": 11,
+            "viewCenter": {
+                "x": 86.57325335729377,
+                "y": 157.7260254012968
+            }
+        },
+        "tilesets.Objects.tsx": {
+            "scaleInDock": 1
+        },
+        "tilesets/Basic Charakter Actions.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "tilesets/Basic Charakter Spritesheet.tsx": {
+            "scaleInDock": 1.2696,
+            "scaleInEditor": 4
+        },
+        "tilesets/Basic Furniture.tsx": {
+            "scaleInDock": 1.9778,
+            "scaleInEditor": 4
+        },
+        "tilesets/Basic Grass Biom things 1.tsx": {
+            "scaleInDock": 2.0242,
+            "scaleInEditor": 4
+        },
+        "tilesets/Basic Plants.tsx": {
+            "scaleInDock": 3.2897,
+            "scaleInEditor": 4
+        },
+        "tilesets/Basic tools and meterials.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Chest.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Fences.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Grass hill tiles v.2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Grass tiles v.2.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Objects.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/Paths.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Simple Milk and grass item.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Tall Grass hill tiles v.2.tsx": {
+            "scaleInDock": 2.7178,
+            "scaleInEditor": 4
+        },
+        "tilesets/Tools.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Water.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Wood Bridge.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/Wooden House.tsx": {
+            "scaleInDock": 3.84,
+            "scaleInEditor": 4
+        },
+        "tilesets/collisions.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/trees.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "/Users/katherine/Desktop/game design/restoration game/graphics/objects",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "field.tmx",
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/interaction.tsx",
+        "tilesets/collisions.tsx",
+        "tilesets/trees.tsx",
+        "tilesets/Objects.tsx"
+    ],
+    "project": "tilemaps.tiled-project",
+    "recentFiles": [
+        "tilesets/Objects.tsx",
+        "tilesets/trees.tsx",
+        "tilesets/collisions.tsx",
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/interaction.tsx",
+        "field.tmx",
+        "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/map.tmx",
+        "tilesets/Tools.tsx",
+        "tilesets/Basic Charakter Spritesheet.tsx",
+        "tilesets/Basic Charakter Actions.tsx",
+        "tilesets/Wooden House.tsx",
+        "tilesets/Water.tsx",
+        "tilesets/Fences.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 1,
+    "tileset.useTransparentColor": true
+}
