@@ -74,8 +74,8 @@ class Menu:
                 
                 current_item = self.options[self.index]
                 
-                print(self.index)
-                print(self.sell_index)
+                # print(self.index)
+                # print(self.sell_index)
                 if self.index <= self.sell_index:
                     if self.player.item_inventory[current_item] > 0:
                         self.player.item_inventory[current_item] -= 1

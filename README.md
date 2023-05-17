@@ -1,6 +1,7 @@
 # gamedesignfinalproject
 
 ## CREDITS:
+On my honor, I have neither given nor received unauthorized help on this project. The following contributed to the project by...
 * This game was made following Clear Code's Youtube Tutorial linked here:
 https://www.youtube.com/watch?v=T4IX36sP_0c&t=9718s
 
