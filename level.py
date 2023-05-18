@@ -64,9 +64,10 @@ class Level:
         # 	for x, y, tilesurface in tmx.get_layer_by_name(layer).tiles():
         # 		Generic((x*TILE_SIZE, y*TILE_SIZE), tilesurface, [self.all_sprites], LAYERS['ground plant'])
     
-        # for layer in ['randomveg']:
-        # 	for x, y, tilesurface in tmx.get_layer_by_name(layer).tiles():
-        # 		Generic((x*TILE_SIZE, y*TILE_SIZE), tilesurface, [self.all_sprites])
+        for layer in ['randomveg']:
+            for x, y, tilesurface in tmx.get_layer_by_name(layer).tiles():
+                Generic((x*TILE_SIZE, y*TILE_SIZE), tilesurface, [self.all_sprites])
+          
         for obj in tmx.get_layer_by_name('trees'):
             Tree((obj.x * 4, obj.y * 4), obj.image.convert_alpha(), [self.all_sprites, self.tree_sprites], obj.name, playeraddfunc = self.player_add)
    

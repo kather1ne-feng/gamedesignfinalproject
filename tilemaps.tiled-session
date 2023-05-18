@@ -5,8 +5,8 @@
     },
     "activeFile": "field.tmx",
     "expandedProjectPaths": [
-        "tilesets",
-        "."
+        ".",
+        "tilesets"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -70,11 +70,11 @@
             "expandedObjectLayers": [
                 15
             ],
-            "scale": 1.7147,
-            "selectedLayer": 8,
+            "scale": 1.9327,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 319.29783635621396,
-                "y": 168.83419840205283
+                "x": 255.34226729445854,
+                "y": 176.69581414601336
             }
         },
         "tilesets.Objects.tsx": {
@@ -156,7 +156,7 @@
             "scaleInEditor": 4
         },
         "tilesets/collisions.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 1.4932,
             "scaleInEditor": 1
         },
         "tilesets/trees.tsx": {
@@ -174,10 +174,12 @@
         "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/Tilesets/interaction.tsx",
         "tilesets/collisions.tsx",
         "tilesets/trees.tsx",
-        "tilesets/Objects.tsx"
+        "tilesets/Objects.tsx",
+        "tilesets/Basic Charakter Actions.tsx"
     ],
     "project": "tilemaps.tiled-project",
     "recentFiles": [
+        "tilesets/Basic Charakter Actions.tsx",
         "tilesets/Objects.tsx",
         "tilesets/trees.tsx",
         "tilesets/collisions.tsx",
@@ -186,7 +188,6 @@
         "/Users/katherine/Downloads/PyDew-Valley/s2 - basic player/data/map.tmx",
         "tilesets/Tools.tsx",
         "tilesets/Basic Charakter Spritesheet.tsx",
-        "tilesets/Basic Charakter Actions.tsx",
         "tilesets/Wooden House.tsx",
         "tilesets/Water.tsx",
         "tilesets/Fences.tsx"
