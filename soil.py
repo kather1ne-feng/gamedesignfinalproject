@@ -130,7 +130,10 @@ class SoilLayer:
                 
                 if 'P' not in self.grid[y][x]:
                     self.grid[y][x].append('P')
+                    print(y, x)
                     Plant(seed, [self.all_sprites, self.plant_sprites], soil, self.check_watered)
+                    return True
+        return False
                     
     def update_plants(self):
         for plant in self.plant_sprites.sprites():

@@ -68,11 +68,12 @@ class Tree(Generic):
             self.check_dead()     
                
     def create_fruit(self):
-        for pos in self.apple_pos:
-            if randint(0, 10) < 2:
-                x = pos[0] + self.rect.left
-                y = pos[1] + self.rect.top
-                Generic((x, y), self.apple_surface, [self.apple_sprites, self.groups()[0]], LAYERS['fruit'])
+        if self.alive:
+            for pos in self.apple_pos:
+                if randint(0, 10) < 2:
+                    x = pos[0] + self.rect.left
+                    y = pos[1] + self.rect.top
+                    Generic((x, y), self.apple_surface, [self.apple_sprites, self.groups()[0]], LAYERS['fruit'])
                 
 class Interaction(Generic):
     def __init__(self, pos, size, groups, name):

@@ -87,8 +87,9 @@ class Player(pygame.sprite.Sprite):
         
     def use_seeds(self):
         if self.seed_inventory[self.selected_seed] > 0:
-            self.soil_layer.plant_seed(self.target_pos, self.selected_seed)
-            self.seed_inventory[self.selected_seed] -= 1
+            planted = self.soil_layer.plant_seed(self.target_pos, self.selected_seed)
+            if planted:
+                self.seed_inventory[self.selected_seed] -= 1
     
     def import_assets(self):
         self.animations = {'up':[], 'down':[], 'left':[], 'right':[],
