@@ -1,6 +1,6 @@
-# gamedesignfinalproject
+# Game Design Final Project 🎮
 
-## CREDITS:
+## CREDITS 📝:
 On my honor, I have neither given nor received unauthorized help on this project. The following contributed to the project by...
 * This game was made following Clear Code's Youtube Tutorial linked here:
 https://www.youtube.com/watch?v=T4IX36sP_0c&t=9718s
@@ -17,6 +17,8 @@ https://concernedape.bandcamp.com/album/stardew-valley-ost
 
 * I also used TILED to make my tile map
 
-## HOW TO RUN THE GAME:
+## HOW TO RUN THE GAME 🏃‍♂️:
 * You need to have Python on your computer as well as the pygame and pytmx libraries
 * run main.py in a Python IDE or python3 main.py with the working directory the entire game folders
+
+## MAKE SURE TO LOOK AT THE GAME DESIGN DOC FOR MORE INFORMATION ON THE GAME PLAY!!!
